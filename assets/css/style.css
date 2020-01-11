@@ -1,0 +1,76 @@
+body { 
+    margin: 0;
+    background-color: #000000;
+}
+
+.navbar {
+    background-color: #000000;
+    margin-bottom: 80px;
+    padding: 0px;
+    border-bottom: 2.5px solid #57FF03;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+
+}
+
+h2#head{
+    padding: 20px ;
+    float: left;
+    display: inline-block;
+    background-color: #000000;
+    color: #57FF03;
+}
+
+h2.title{
+    color: #57FF03;
+}
+
+
+.container{
+    margin-bottom: 100px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #57FF03;
+    line-height: 2;
+}
+
+
+img.photo {
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+div.stripe{
+    height: 40px;
+    position: relative;
+    bottom: 60px;
+    padding-top: 5px;
+    z-index: 1;
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    font-size: 16px;
+    text-align: center;
+    background-color: #57FF03;
+    color: #000000;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #57FF03;
+}
+
+.page-footer{
+    background-color: #000000;
+    border-top: 2.5px solid #57FF03;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
