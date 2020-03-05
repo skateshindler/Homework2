@@ -4,78 +4,283 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>02-About Me</title>
+    <title>Updated Portfolio</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../css/personal.css"> -->
+    <script async type="text/javascript" src="../js/bulma.js"></script>
 
 </head>
 
 <body>
 
-
-<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light">
-    <div class="col-sm-2"></div>
-    <h2 id="head" class="col-sm-2">BrandonShindler</h2>
-    <div class="col-sm-2"></div>
-    <div class="col-sm-2"></div>
-    <div class="col-sm-2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#./about.html"><p style="color:white;">About</p></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html"><p style="color:white;">Portfolio</p></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html"><p style="color:white;">Contact</p></a>
-            </li>
-        </ul>
+<!-- NAVBAR -->
+<nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-    <div class="col-sm-2"></div>
-</nav>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10">
-            <div class="card">
-                <div class="card-body"style='background-color: black'>
-                    
-                    
-                    <hr>
-                    <img class="photo" src="assets/images/photo.png" alt="Brandon Shindler">
-                    <p>
-                            Hello, my name is Brandon Shindler. I am doing this class to further my knowledge of programing/web development     
-                            and eventually work for myself. So far, this class has been really fun and I have learned so much from it.
-
-                        
-                        </p>
-                        <p>
-                            Some hobbies of mine include; photography, surfing, skateboarding, meditating, eating pizza. 
-                        </p>
-                        <p>
-                            I grew up in Westlake Village, CA. Roughly about 38 miles from Los Angeles. I came to LA when I was 18
-                            and have lived here ever since. I currently reside in Sherman Oaks and love it. I love the food and the nightlife
-                            that the valley holds. 
-            
-                        </p>
-                       
-                </div>
-            </div>
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+          <a class="navbar-item" href="#about">
+            <span class="icon">
+              <i class="fas fa-info"></i>
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item" href="#portfolio">
+            <span class="icon">
+              <i class="fas fa-th-list"></i>
+            </span>
+            <span>Portfolio</span>
+          </a>
+          <a class="navbar-item" href="#contact">
+            <span class="icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span>Contact</span>
+          </a>
         </div>
-        <div class="col-sm-1"></div>
+      </div>
+    </nav>
+
+<!-- Header -->
+<section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">Hello! I am
+        <h1 class="title is-1">
+          Brandon Shindler
+        </h1>
+        <h2 class="subtitle is-3">
+          Full Stack Web Developer & All Around Gangster 
+        </h2>
+        <img src="./assets/images/goat.png" alt="Italian Trulli" width="250" height="200">
+
+
+      </div>
     </div>
+  </section>
+
+
+  <!-- About -->
+  <section class="section" id="about">
+    <!-- Title -->
+    <div class="section-heading">
+      <h3 class="title is-2">About Me</h3>
+      <h4 class="subtitle is-5">A Master of some, a Wizard of all.</h4>
+      <div class="container">
+        <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+          field of
+          <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+          Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+          believes
+          in gaining a competitive edge and giving back to the community.</p>
+      </div>
+    </div>
+
+
+    <div class="columns has-same-height is-gapless">
+        <div class="column">
+            
+          <!-- Profile -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="title is-4">Profile</h3>
+  
+              <div class="content">
+                <table class="table-profile">
+                  <tr>
+                    <th colspan="1"></th>
+                    <th colspan="2"></th>
+                  </tr>
+                  <tr>
+                    <td>Name:</td>
+                    <td>Brandon Shindler</td>
+                  </tr>
+                  <tr>
+                    <td>Phone:</td>
+                    <td>310-750-5055</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>bookwithbrandonshindler@gmail.com</td>
+                  </tr>
+                </table>
+              </div>
+              <br>
+              <div class="buttons has-addons is-left">
+                <a href="https://github.com/skateshindler" class="button is-link">Github</a>
+                <a href="https://www.linkedin.com/in/brandon-shindler-90196444/" class="button is-link">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+    </div>
+       
+        <div class="column">
+<!-- Profile picture -->
+<div class="card">
+        <div class="card-image">
+          <figure class="image is-6by3">
+            <img src="./assets/images/photo.png" alt="Placeholder image">
+          </figure>
+        </div>
+      </div>
 </div>
 
 
+</section>
 
-<footer class="page-footer font-small blue fixed-bottom">
-    <div class="footer-copyright text-center py-3">
-        Copyright&nbsp;&copy; Brandon Shindler
-    </div>
-</footer>
+
+
+<!-- Portfolio -->
+<section class="section" id="portfolio">
+        <div class="container">
+          <div class="section-heading">
+            <h3 class="title is-2">Portfolio</h3>
+            <h4 class="subtitle is-5">My latest works</h4>
+          </div>
+          <br>
+    
+          <div class="container portfolio-container">
+            <div class="columns">
+              <div class="column is-4">
+               
+                <div class="card">
+                  <header class="card-header">
+                    <p class="card-header-title">
+                      <span>Book Search</span>
+                      <span class="is-pulled-right">
+                        
+                
+                    </p>
+                  </header>
+                  <div class="card-content">
+                    <figure class="image">
+                      <img src="./assets/images/project1.jpg" alt="Admin template screenshot">
+                    </figure>
+                  </div>
+                  <footer class="card-footer">
+                    <a href="https://yechan96.github.io/bootcamp_project1/" class="card-footer-item">Preview</a>
+                    
+                  </footer>
+                </div>
+            </div>
+            <div class="column is-4">
+                    <!-- Weather App-->
+                    <div class="card">
+                      <header class="card-header">
+                        <p class="card-header-title">
+                          <span>Weather App</span>
+                          <span class="is-pulled-right">
+                            
+                            </span>
+                        </p>
+                      </header>
+                      <div class="card-content">
+                        <figure class="image">
+                          <img src="./assets/images/weather.jpg" alt="Band template screenshot">
+                        </figure>
+                      </div>
+                      <footer class="card-footer">
+                        <a href="https://skateshindler.github.io/weatherappp/" class="card-footer-item">Preview</a>
+                        
+                      </footer>
+                    </div>
+            </div>
+
+            
+                <!-- Day Planner -->
+            <div class="card">
+                    <header class="card-header">
+                      <p class="card-header-title">
+                        <span>Day Planner</span>
+                        <span class="is-pulled-right">
+                          
+                          </span>
+                      </p>
+                    </header>
+                    <div class="card-content">
+                      <figure class="image">
+                        <img src="./assets/images/planner.jpg" alt="Blog template screenshot">
+                      </figure>
+                    </div>
+                    <footer class="card-footer">
+                      <a href="https://skateshindler.github.io/DayPlanner/" class="card-footer-item">Preview</a>
+                    </footer>
+                  </div>
+            </div>   
+
+ </section>
+
+                <!-- Contact -->
+  <section class="section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <h3 class="title is-2">Contact</h3>
+            <h4 class="subtitle is-5">Get in touch</h4>
+          </div>
+          <br>
+    
+          <div class="columns">
+            <div class="column is-6 is-offset-3">
+              <div class="box">
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                  </div>
+                </div>
+    
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <input class="input" type="email" placeholder="Email input" value="">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+    
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                  </div>
+                </div>
+    
+                <div class="field is-grouped has-text-centered">
+                  <div class="control">
+                    <button class="button is-link is-large"><span class="icon">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span>Submit</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+
+
+      <footer class="footer">
+            <div class="section-heading">
+              <p>
+                <strong>Brandon Shindler</strong></a>. The Goat.
+            
+              </p>
+            </div>
+          </footer>
     
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
