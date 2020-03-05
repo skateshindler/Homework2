@@ -1,76 +1,58 @@
-body { 
-    margin: 0;
-    background-color: #000000;
+.hero-body{
+    background-color: black;
 }
 
-.navbar {
-    background-color: #000000;
-    margin-bottom: 80px;
-    padding: 0px;
-    border-bottom: 2.5px solid #57FF03;
+/* .navbar-menu {
+    background-color: black;
+} */
+
+.navbar.is-link {
+    background-color: black;
 }
 
-h2{
-    margin: 0;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
-    
-
+.buttons-has.addons{
+    background-color: black;
 }
 
-h2#head{
-    padding: 20px ;
-    float: left;
-    display: inline-block;
-    background-color: #000000;
-    color: #57FF03;
-}
-
-h2.title{
-    color: #57FF03;
-}
-
-
-.container{
-    margin-bottom: 100px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #57FF03;
-    line-height: 2;
-}
-
-
-img.photo {
-    margin: 10px;
-    border-radius: 5px;
-    width: 150px;
-    height: 150px;
-    float: left;
-}
-
-div.stripe{
-    height: 40px;
-    position: relative;
-    bottom: 60px;
-    padding-top: 5px;
-    z-index: 1;
-    font-family: 'Georgia', Times, 'Times New Roman', serif; 
-    font-size: 16px;
+.has-same-height .card {
+    height: 320px;
+    overflow: hidden;
+  }
+  
+  .card-content h3 {
     text-align: center;
-    background-color: #57FF03;
-    color: #000000;
-}
-
-button {
-    padding: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    color: #57FF03;
-}
-
-.page-footer{
-    background-color: #000000;
-    border-top: 2.5px solid #57FF03;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 10px;
-    color: #ffffff;
-}
+  }
+  
+  .table-profile td,
+  th {
+    border: none !important;
+  }
+  
+  .table-profile td:first-of-type {
+    font-weight: bold;
+  }
+  
+  .skills-content .media {
+    margin: 0 !important;
+    padding: 4px !important;
+    border: 0 !important;
+  }
+  
+  .skills-content .progress {
+    height: 4px !important;
+  }
+  
+  .custom-tags {
+    text-align: center !important;
+    display: block;
+  }
+  
+  .portfolio-container .card {
+    margin-bottom: 2em;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 6em;
+  }
